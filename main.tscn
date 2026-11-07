@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://ikj8x38tln4s"]
+
+[ext_resource type="Texture2D" uid="uid://dao4ksom1w83u" path="res://icon.svg" id="1_0xm2m"]
+[ext_resource type="Script" uid="uid://efoa8m0unctp" path="res://move.gd" id="2_h2yge"]
+[ext_resource type="Texture2D" uid="uid://cnsy3juffvnkf" path="res://pixeltree.png" id="3_1bvp3"]
+[ext_resource type="Script" uid="uid://ftlv3jwm6c1c" path="res://duck.gd" id="3_h2yge"]
+
+[node name="Main" type="Node2D" unique_id=603929235]
+
+[node name="testGuy" type="Sprite2D" parent="." unique_id=1300139677]
+position = Vector2(169, 123)
+texture = ExtResource("1_0xm2m")
+script = ExtResource("2_h2yge")
+
+[node name="duck" type="Sprite2D" parent="." unique_id=1586187793]
+position = Vector2(489.125, 211)
+scale = Vector2(0.22587341, 0.20849422)
+texture = ExtResource("3_1bvp3")
+script = ExtResource("3_h2yge")
